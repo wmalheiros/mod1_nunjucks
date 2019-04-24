@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: false }))
 
 app.set('view engine', 'njk')
 
-const users = ['Tutu bolinha', 'Jonathan', 'Wenderson', 'Foo', 'Baz']
+const users = ['User 1', 'User 2', 'User 3', 'User 4', 'User 5']
 
 // rota principal
 app.get('/', (req, res) => {
